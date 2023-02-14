@@ -31,31 +31,6 @@ namespace  NCMB
 	public class NCMBCurrentInstallation : NCMBInstallation
 	{
 
-		internal void setDefaultProperty ()
-		{
-
-			IDictionary<string, object> dic = NCMBManager.installationDefaultProperty;
-			object value;
-			if (dic.TryGetValue ("applicationName", out value)) {
-				ApplicationName = (string)value;
-			}
-			if (dic.TryGetValue ("appVersion", out value)) {
-				AppVersion = (string)value;
-			}
-			if (dic.TryGetValue ("deviceType", out value)) {
-				DeviceType = (string)value;
-			}
-			if (dic.TryGetValue ("timeZone", out value)) {
-				TimeZone = (string)value;
-			}
-
-			#if UNITY_ANDROID && !UNITY_EDITOR
-			this["pushType"] = "fcm";
-			#endif
-
-			SdkVersion = CommonConstant.SDK_VERSION;
-		}
-
 		/// <summary>
 		/// コンストラクター。<br/>
 		/// JSONデータをセットしinstallationを作成する場合、こちらを使用します。
