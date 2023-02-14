@@ -8,8 +8,6 @@
 - iOS 13.x〜16.x
 (※2023年XX月時点)
 
-※ 併せて、[Monaca 対応環境](https://ja.docs.monaca.io/environment)をご確認ください。（NIFCLOUDMB (ncmb-push-monaca-plugin)の保証動作環境ではありません。）
-
 ### テクニカルサポート窓口対応バージョン
 
 テクニカルサポート窓口では、1年半以内にリリースされたSDKに対してのみサポート対応させていただきます。
@@ -24,11 +22,11 @@
 
 ## 初期設定
 
-* 詳細については[ドキュメント](https://mbaas.nifcloud.com/doc/current/push/basic_usage_javascript.html#%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5%E9%80%9A%E7%9F%A5%E3%81%AE%E5%8F%97%E4%BF%A1(Monaca))を併せてご確認ください.
+* 詳細については[ドキュメント](https://mbaas.nifcloud.com/doc/current/push/basic_usage_unity.html)を併せてご確認ください.
 * Android端末での利用には、ご自身のFirebase設定ファイルgoogle-services.jsonをダウンロードして、Cordovaプロジェクトのルートディレクトリに置く必要があります。設定ファイルのダウンロードについては[こちらのFirebaseサポートページ](https://support.google.com/firebase/answer/7015592)にて詳細をご覧ください。
 
 ```
-- Your_monaca_project/
+- Your_unity_project/
     platforms/
     plugins/
     www/
