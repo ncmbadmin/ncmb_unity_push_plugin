@@ -2,8 +2,9 @@
 
 
 こちらはニフクラmobile backendのUnityプッシュ通知用プラグインになります。
-利用方法については [ドキュメント](https://mbaas.nifcloud.com/doc/current/push/basic_usage_unity.html) をご確認し、ご利用ください。
-こちらは単体では動きませんのでご注意ください。
+
+こちらは [ニフクラmobile backend Unity SDK](https://github.com/NIFCLOUD-mbaas/ncmb_unity) と組み合わせて利用する必要があり、単体では動きませんのでご注意ください。
+詳細の利用方法については [ドキュメント](https://mbaas.nifcloud.com/doc/current/push/basic_usage_unity.html) をご確認し、ご利用ください。
 
 ---
 ## 動作環境
